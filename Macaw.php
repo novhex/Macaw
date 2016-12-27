@@ -18,7 +18,8 @@ class Macaw {
   public static $patterns = array(
       ':any' => '[^/]+',
       ':num' => '[0-9]+',
-      ':all' => '.*'
+      ':all' => '.*',
+      ':slug'=> '[a-z0-9-_]+'
   );
   public static $error_callback;
 
